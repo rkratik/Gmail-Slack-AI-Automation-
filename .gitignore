@@ -1,0 +1,73 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+.project
+.classpath
+
+# Node (if using Node.js)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+debug.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+*~
+*.orig
+
+# Credentials and sensitive data
+credentials.json
+secrets.json
+private_key.json
+*.pem
+*.key
+
+# Configuration overrides
+config.local.json
+local.json
+
+# Build outputs
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.eslintcache
+
+# Testing
+coverage/
+.nyc_output/
+
+# API Keys and tokens (in case they slip through)
+*_KEY*
+*_SECRET*
+*_TOKEN*
