@@ -2,7 +2,7 @@
 
 Automated integration that captures Google Form responses and processes them through AI to send intelligent notifications to Slack and Gmail.
 
-## 🎯 Features
+## Features
 
 - **Google Forms Trigger**: Automatically captures new form responses in real-time
 - **AI Processing**: Leverages AI to analyze and process form data
@@ -12,7 +12,7 @@ Automated integration that captures Google Form responses and processes them thr
 - **File Handling**: Manages file uploads from form responses
 - **Respondent Tracking**: Captures respondent email and submission metadata
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before getting started, ensure you have:
 
@@ -23,7 +23,7 @@ Before getting started, ensure you have:
 - Make.com account (integration platform)
 - Node.js 14+ (for local development/testing)
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Clone the repository**
    ```bash
@@ -43,7 +43,7 @@ Before getting started, ensure you have:
 4. **Test Integration**
    - See [TEST.md](TEST.md) for testing procedures
 
-## 📖 Documentation
+## Documentation
 
 - **[SETUP.md](SETUP.md)** - Detailed setup and configuration guide
 - **[DEPLOYMENT.md](DEPLOYMENT.md)** - Production deployment checklist
@@ -52,7 +52,7 @@ Before getting started, ensure you have:
 - **[CHANGELOG.md](CHANGELOG.md)** - Version history and updates
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
 
-## 🔐 Security
+## Security
 
 - Never commit `.env` files or credentials
 - Use environment variables for sensitive data
@@ -62,7 +62,7 @@ Before getting started, ensure you have:
 
 See [SETUP.md](SETUP.md#security) for security best practices.
 
-## 📊 Project Structure
+## Project Structure
 
 ```
 ├── Integration Google Forms.blueprint.json  # Main automation blueprint
@@ -77,7 +77,7 @@ See [SETUP.md](SETUP.md#security) for security best practices.
 └── CHANGELOG.md                              # Version history
 ```
 
-## 🔄 Workflow
+## Workflow
 
 1. **Form Submission** - User submits Google Form
 2. **Trigger Detection** - Blueprint detects new response
@@ -86,7 +86,7 @@ See [SETUP.md](SETUP.md#security) for security best practices.
 5. **Notification** - Send to Slack and/or Gmail based on rules
 6. **Logging** - Track submission and response
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 Common issues and solutions:
 
@@ -97,7 +97,7 @@ Common issues and solutions:
 
 See [SETUP.md](SETUP.md#troubleshooting) for more troubleshooting steps.
 
-## 💡 Use Cases
+## Use Cases
 
 - **Quiz Grading Automation** - Auto-grade quizzes and send feedback
 - **Survey Response Analysis** - Process surveys with AI and route to teams
@@ -105,29 +105,29 @@ See [SETUP.md](SETUP.md#troubleshooting) for more troubleshooting steps.
 - **Feedback Collection** - Gather feedback and route to relevant departments
 - **Registration Processing** - Automate registration workflows
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
-## 📧 Support
+## Support
 
 For issues, questions, or suggestions:
 - Open an issue on GitHub
 - Check [SETUP.md](SETUP.md#troubleshooting) for common solutions
 - Review [TEST.md](TEST.md) for testing help
 
-## 🎓 Resources
+## Resources
 
 - [Google Forms API Documentation](https://developers.google.com/forms/api)
 - [Slack API Documentation](https://api.slack.com)
 - [Gmail API Documentation](https://developers.google.com/gmail/api)
 - [Make.com Documentation](https://www.make.com/en/help)
 
-## ⚠️ Important Notes
+## Important Notes
 
 - Test thoroughly in a development environment before production
 - Backup your Google Forms and configuration regularly
