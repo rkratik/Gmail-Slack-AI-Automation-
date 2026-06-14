@@ -135,8 +135,4 @@ For issues, questions, or suggestions:
 - Keep API credentials secure and rotate them periodically
 - Review and update the blueprint quarterly
 
----
 
-**Last Updated**: June 2024  
-**Version**: 1.0.0  
-**Maintainer**: rkratik
